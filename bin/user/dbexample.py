@@ -12,9 +12,10 @@ import weeutil.weeutil
 from weewx.engine import StdService
 
 import os
+import syslog
 import time
 
-VERSION = "0.1"
+VERSION = "0.2"
 
 #------- standard weewx logging wrappers -----
 
